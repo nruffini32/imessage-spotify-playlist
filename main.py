@@ -13,6 +13,7 @@ def main():
 
     # Get songs from imessage db established in config
     messages = get_messages()
+    # print(messages)
     spot_ids = get_spotify_ids(messages)
 
     # Add songs to playlist
