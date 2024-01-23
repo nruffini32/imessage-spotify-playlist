@@ -8,7 +8,7 @@ os.environ['SPOTIPY_CLIENT_ID'] = config.SPOTIPY_CLIENT_ID
 os.environ['SPOTIPY_CLIENT_SECRET'] = config.SPOTIPY_CLIENT_SECRET
 os.environ['SPOTIPY_REDIRECT_URI'] = config.SPOTIPY_REDIRECT_URI
 
-BLACKLIST = ["6hAOB469TnsVzHIel988K5", "5K9gHgtMi27rXr9HnT9wAa", "7tkPJV3ASN9hKYsKqViobl"]
+BLACKLIST = []
 
 
 def decode_messages(messages):
