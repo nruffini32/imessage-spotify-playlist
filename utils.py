@@ -13,7 +13,6 @@ BLACKLIST = []
 def decode_messages(messages):
     lst = []
     for m in messages:
-
         if m is None:
             continue
 
