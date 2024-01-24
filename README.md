@@ -13,7 +13,7 @@ By filling out the config.py, you can run the main.py script to generate a Spoti
 3. Make sure the following dependencies are installed
   - `pytypedstream`
   - `spotipy`
-4. Run main.py!
+4. Run main.py
   - On the first run you will be prompted with a SSO page to Spotify. All preceding runs will used this cached information.
   - A playlist named "[GROUP_CHAT] GM" will be created in your Spotify account with all the links sent in the specified group chat.
 
