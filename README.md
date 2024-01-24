@@ -15,7 +15,7 @@ By filling out the config.py, you can run the main.py script to generate a Spoti
   - `spotipy`
 4. Run main.py!
   - On the first run you will be prompted with a SSO page to Spotify. All preceding runs will used this cached information.
-  - A playlist named "[GROUP_CHAT] GM" will be created in your Spotify account.
+  - A playlist named "[GROUP_CHAT] GM" will be created in your Spotify account with all the links sent in the specified group chat.
 
 
-###### Disclaimer - Only Spotify links are currently supported.
+###### Disclaimer - Only Spotify links and iMessage group chats are currently supported.
