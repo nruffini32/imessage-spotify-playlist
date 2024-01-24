@@ -11,9 +11,8 @@ def main():
     # Create new playlist if it doesn't exists
     playlist_id = create_new_playlist_if_not_exists(sp)
 
-    # Get songs from imessage db established in config
+    # Get Spotify song ids from imessage db established in config
     messages = get_messages()
-    # print(messages)
     spot_ids = get_spotify_ids(messages)
 
     # Add songs to playlist
