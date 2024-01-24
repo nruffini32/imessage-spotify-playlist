@@ -3,13 +3,12 @@ import os
 import config
 from typedstream.stream import TypedStreamReader
 
-
 os.environ['SPOTIPY_CLIENT_ID'] = config.SPOTIPY_CLIENT_ID
 os.environ['SPOTIPY_CLIENT_SECRET'] = config.SPOTIPY_CLIENT_SECRET
 os.environ['SPOTIPY_REDIRECT_URI'] = config.SPOTIPY_REDIRECT_URI
 
+# Optional configuration to blacklist certain songs from playlist - just add Spotify id as string to the list
 BLACKLIST = []
-
 
 def decode_messages(messages):
     lst = []
