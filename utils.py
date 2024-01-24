@@ -23,14 +23,12 @@ def decode_messages(messages):
                 lst.append(temp)
 
     filtered_list = [item for item in lst if item != ""]
-
     return filtered_list
 
 
 def get_messages():
     conn = sqlite3.connect(config.DB_PATH)
     cur = conn.cursor()
-
     sql = f"""
         select attributedBody from
         message where
@@ -40,7 +38,6 @@ def get_messages():
         where chat_id = 
         (SELECT ROWID FROM chat WHERE display_name = '{config.GROUP_CHAT}'))
     """
-
     cur.execute(sql)
     results = cur.fetchall()
     cur.close()
@@ -51,7 +48,6 @@ def get_messages():
 
     # Removing duplicates
     final_messages = list(dict.fromkeys(decoded_lst))
-
     return final_messages
 
 
@@ -145,5 +141,5 @@ def add_tracks_to_playlist(sp, playlist_id, spot_ids_to_add):
 
         # If id in playlist skip
         else:
-            pass
             # print(f"'{existing_tracks_dic[id]}' already in playlist.")
+            pass
