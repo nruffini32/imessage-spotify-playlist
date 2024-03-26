@@ -4,6 +4,8 @@
 This project allows you to create a Spotify playlist with Spotify links sent in an iMessage group chat.
 By filling out the config.py, you can run the main.py script to generate a Spotify playlist.
 
+Must run this on a Mac with iMessage enabled.
+
 ### Usage
 1. Create an Application through the Spotify Developer Portal - [https://developer.twitter.com/en](https://developer.spotify.com/)
 2. Clone this directory with `git clone`
