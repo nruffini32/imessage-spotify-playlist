@@ -40,6 +40,10 @@ def get_messages():
     """
     cur.execute(sql)
     results = cur.fetchall()
+
+    if len(results) == 0:
+        print(f"No messages for group chat {config.GROUP_CHAT}")
+        exit()
     cur.close()
     conn.close()
 
