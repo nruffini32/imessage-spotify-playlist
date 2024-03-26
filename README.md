@@ -16,5 +16,7 @@ By filling out the config.py, you can run the main.py script to generate a Spoti
   - You will be redirected to an example.org domain and be prompted to enter that url.
   - A playlist named "[GROUP_CHAT] GM" will be created in your Spotify account with all the links sent in the specified group chat.
 
+Any following runs will add songs to that existing playlist. 
+
 
 ###### Disclaimer - Only Spotify links and iMessage group chats are currently supported.
