@@ -11,9 +11,7 @@ By filling out the config.py, you can run the main.py script to generate a Spoti
   - `DB_PATH` is the file path to your chat.db file. This sqlite database contains your iMessage data.
     - Default location is `"/Users/[profile_name]/Library/Messages/chat.db"`
   - `SPOTIPY_CLIENT_ID` `SPOTIPY_CLIENT_SECRET` `SPOTIPY_REDIRECT_URI` are your credentials from your Twitter Application.
-3. Make sure the following dependencies are installed
-  - `pytypedstream`
-  - `spotipy`
+3. Run the following command `pip3 install -r requirements.txt`
 4. Run main.py
   - On the first run you will be prompted with a SSO page to Spotify. All preceding runs will used this cached information.
   - A playlist named "[GROUP_CHAT] GM" will be created in your Spotify account with all the links sent in the specified group chat.
