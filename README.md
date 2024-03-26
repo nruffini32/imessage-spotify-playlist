@@ -16,7 +16,7 @@ Must run this on a Mac with iMessage enabled.
   - `SPOTIPY_CLIENT_ID` `SPOTIPY_CLIENT_SECRET` `SPOTIPY_REDIRECT_URI` are your credentials from your Spotify Application.
 3. cd into the directory and run the following commands to install dependencies
   ```
-  cd path/to/imessage-spotify-playlist
+  cd path/to/imessage-spotify-playlist/
   python3 -m venv <your-env>
   source <your-env>/bin/activate
   pip3 install -r requirements.txt
