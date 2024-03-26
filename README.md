@@ -9,6 +9,7 @@ By filling out the config.py, you can run the main.py script to generate a Spoti
 2. Configure config.py
   - `GROUP_CHAT` is the name of your iMessage group chat.
   - `DB_PATH` is the file path to your chat.db file. This sqlite database contains your iMessage data.
+    - Default location is `"/Users/[profile_name]/Library/Messages/chat.db"`
   - `SPOTIPY_CLIENT_ID` `SPOTIPY_CLIENT_SECRET` `SPOTIPY_REDIRECT_URI` are your credentials from your Twitter Application.
 3. Make sure the following dependencies are installed
   - `pytypedstream`
