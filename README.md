@@ -1,6 +1,6 @@
 # Spotify Playlist from iMessage Group Chat
 
-Webapp for this source code here [chatunes.com](www.chatunes.com)
+Web app for this source code here [chatunes.com](https://www.chatunes.com/)
 
 ### Overview
 This project allows you to create a Spotify playlist with Spotify links sent in an iMessage group chat.
